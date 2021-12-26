@@ -1,0 +1,28 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:luckymouse11/TeamGenerator.git",
+  "author": "Victor Liew <victorliew0711@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "npx nodemon index.js",
+    "seed": "node db/seeds.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "http-proxy-middleware": "^2.0.1",
+    "http-proxy-server": "^0.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.3",
+    "mongoose-unique-validator": "^3.0.0",
+    "react-router-dom": "^6.2.1",
+    "react-select": "^5.2.1"
+  }
+}
